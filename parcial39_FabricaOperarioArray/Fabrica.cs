@@ -78,8 +78,11 @@ namespace parcial39_FabricaOperarioArray
         {
             for (int i = 0; i < this._operarios.Length; i++)
             {
-                if (this._operarios[i] == op)
-                    return i;
+                if (this._operarios[i] != (object)null)
+                {
+                    if (this._operarios[i] == op)
+                        return i;
+                }      
             }
             return -1;
         }
@@ -98,6 +101,8 @@ namespace parcial39_FabricaOperarioArray
         private string MostrarOperarios()
         {
             StringBuilder sb = new StringBuilder();
+            sb.AppendLine("\nRazón Social: " + this._razonSocial);
+            sb.AppendLine("\nOperarios:\n");
             for (int i = 0; i < this._operarios.Length; i++)
             {
                 if (this._operarios[i] != (object)null)
