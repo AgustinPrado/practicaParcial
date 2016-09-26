@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parcial37_CuentaCorrienteBa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parcial39_FabricaOperarioArray", "parcial39_FabricaOperarioArray\parcial39_FabricaOperarioArray.csproj", "{C805EAFE-EDB0-482E-A3D1-5D5AB1AB7EE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parcial40_AlumnoCursoArray2012", "parcial40_AlumnoCursoArray2012\parcial40_AlumnoCursoArray2012.csproj", "{8ACB2CEB-CAC5-4A03-A8C9-052E7934DF0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C805EAFE-EDB0-482E-A3D1-5D5AB1AB7EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C805EAFE-EDB0-482E-A3D1-5D5AB1AB7EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C805EAFE-EDB0-482E-A3D1-5D5AB1AB7EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACB2CEB-CAC5-4A03-A8C9-052E7934DF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACB2CEB-CAC5-4A03-A8C9-052E7934DF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACB2CEB-CAC5-4A03-A8C9-052E7934DF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACB2CEB-CAC5-4A03-A8C9-052E7934DF0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
