@@ -15,11 +15,13 @@ namespace parcialHabemusPapa
         private Cardenal _papa;
         public static int cantidadVotaciones;
         public static DateTime fechaVotacion;
+        public static Random objRandom;
 
         static Conclave()
         {
             Conclave.cantidadVotaciones = 0;
             Conclave.fechaVotacion = DateTime.Now;
+            Conclave.objRandom = new Random();
         }
 
         private Conclave()
@@ -89,12 +91,11 @@ namespace parcialHabemusPapa
 
         public static void VotarPapa(Conclave con)
         {
-            Random objRandom = new Random();
             int indicePapal;
 
             for (int i = 0; i < con._cardenales.Count; i++)
             {
-                indicePapal = objRandom.Next(0, con._cardenales.Count);
+                indicePapal = Conclave.objRandom.Next(0, con._cardenales.Count);
                 con._cardenales[indicePapal]++;
             }
 
