@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerProducto", "ContainerProducto\ContainerProducto.csproj", "{17F1AE38-4533-4606-9075-0C6D38301BE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parcial37_CuentaCorrienteBanco2011", "parcial37_CuentaCorrienteBanco2011\parcial37_CuentaCorrienteBanco2011.csproj", "{64E7343A-1D9F-4E97-BA75-E54209085D97}"
@@ -10,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parcial40_AlumnoCursoArray2012", "parcial40_AlumnoCursoArray2012\parcial40_AlumnoCursoArray2012.csproj", "{8ACB2CEB-CAC5-4A03-A8C9-052E7934DF0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parcialHabemusPapa", "parcialHabemusPapa\parcialHabemusPapa.csproj", "{005CDAF7-6A44-4357-BA52-CDFD1D0F1CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{A9211FF6-EA40-428F-9682-DDFFD694993F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEstante", "TestEstante\TestEstante.csproj", "{9AA209B0-923E-43F5-ADFC-FF8114B03A64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{005CDAF7-6A44-4357-BA52-CDFD1D0F1CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{005CDAF7-6A44-4357-BA52-CDFD1D0F1CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{005CDAF7-6A44-4357-BA52-CDFD1D0F1CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9211FF6-EA40-428F-9682-DDFFD694993F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9211FF6-EA40-428F-9682-DDFFD694993F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9211FF6-EA40-428F-9682-DDFFD694993F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9211FF6-EA40-428F-9682-DDFFD694993F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA209B0-923E-43F5-ADFC-FF8114B03A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA209B0-923E-43F5-ADFC-FF8114B03A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA209B0-923E-43F5-ADFC-FF8114B03A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA209B0-923E-43F5-ADFC-FF8114B03A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
