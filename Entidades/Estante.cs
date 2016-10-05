@@ -42,7 +42,7 @@ namespace Entidades
         public float GetValorEstante(ETipoProducto tipo)
         {
             float valor = 0;
-            foreach (Producto item in this._productos)
+            foreach (Producto item in this.GetProductos())
             {
                 switch (tipo)
                 {
@@ -151,15 +151,27 @@ namespace Entidades
                 {
                     case ETipoProducto.Galletita:
                         if (est.GetProductos()[i] is Galletita)
+                        {
                             est -= est.GetProductos()[i];
+                            // Corrije el problema de que se achique la colección.
+                            i--;
+                        }  
                         break;
                     case ETipoProducto.Gaseosa:
                         if (est.GetProductos()[i] is Gaseosa)
+                        {
                             est -= est.GetProductos()[i];
+                            // Corrije el problema de que se achique la colección.
+                            i--;
+                        }
                         break;
                     case ETipoProducto.Jugo:
                         if (est.GetProductos()[i] is Jugo)
+                        {
                             est -= est.GetProductos()[i];
+                            // Corrije el problema de que se achique la colección.
+                            i--;
+                        }
                         break;
                     case ETipoProducto.Todos:
                         est.GetProductos().Clear();
